@@ -10,15 +10,14 @@ body {
 header {
   background-color: #000;
   color: #fff;
-  padding: 20px;
+  padding: 20px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .logo {
-  font-size: 28px;
-  font-weight: bold;
+header .logo img {
+  width: 150px;
 }
 
 header nav ul {
