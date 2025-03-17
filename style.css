@@ -14,6 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 header .logo img {
@@ -21,13 +22,15 @@ header .logo img {
 }
 
 header nav {
-  width: 60%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header nav ul {
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   margin: 0;
   padding: 0;
